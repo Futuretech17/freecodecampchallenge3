@@ -1,0 +1,102 @@
+body {
+    margin:0;
+    font: 16px Lato, sans-serif;
+    
+}
+img {
+    display: block;
+    width:100%;
+    margin-bottom:2em;
+}
+header {
+    margin-top:5em;
+}
+#header-img {
+    opacity:0.5;
+    
+}
+#header-info {
+    position:relative;
+    color:#000000;
+}
+#company-name {
+    position:absolute;
+    top:100px;
+    left:36px;
+    font-size:5vm;
+}
+#large-text {
+    font-size: 50px;
+    color: rgb(255,0,0)
+}
+#nav-bar {
+    position:fixed;
+    display: flex;
+    justify-content: flex-end;
+    top:0;
+    background-color: rgba(255, 0, 0,0.6);
+    height: 5rem;
+    width: 100%;
+    margin-bottom:5em;
+
+  }
+#nav-link  {
+    margin-top:2em;
+    
+} 
+#nav-link a {
+    color:white;
+    text-decoration:none;
+    margin:2em 2em .5em 0;
+}
+#main-body {
+    width:70%;
+    margin:auto;
+    text-align:center;
+}
+#submit:hover {
+    background-color: rgba(255, 0, 0,0.6);
+}
+.media-query {
+    display: none;
+}
+input {
+    padding:1em;
+    margin:1em;
+}
+#maroon-text {
+    color:#800000;
+}
+.input-border {
+    border:1px solid #800000;
+    border-radius: 4px;
+    background-color:#000000;
+    color:#ffffff;
+}
+.flexbox {
+    display: flex;
+ }
+footer {
+    background-color: rgba(255, 0, 0,0.6);
+    height: 5rem;
+    justify-content: center;
+    padding-top:2rem;
+    margin-top:2rem;
+}
+@media screen and ( min-width:710px) {
+.main-body {
+    width: 80%;
+}
+.media-query {
+    display: initial;
+}
+img {
+    margin:2em 0;
+}
+#video {
+    width:100%;
+}
+.min-page {
+    display: none;
+}
+}
